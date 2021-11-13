@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Belief In Boxing</title>
+    <!-- 
+        Designed by Shahedul Islam
+        Fiverr: dev_shahed
+        Facebook: https://www.facebook.com/lolachost.shahed
+
+     -->
+</head>
+<body>
+    <header class="position-fixed bg-white left-0 top-0 w-100 border">
+        <div class="container-fluid py-3 row justify-content-between align-items-center">
+            <div id="logo" class="col-md-2 col-4">
+                <img class="img-fluid" src="https://www.equalityaction.org.uk/img/misc/equality-action-logo-small.png" alt="Logo">
+            </div>
+            <nav class="col-md-10 col-8 row justify-content-end align-items-center">
+                <ul class="m-0 col-10 list-unstyled d-lg-flex d-none justify-content-end align-items-center">
+                    <li class="mx-2"><a class="text-decoration-none text-dark p-1 navLink" href="index.html">HOME</a></li>
+                    <li class="mx-2"><a class="text-decoration-none text-dark p-1 navLink" href="projects.html">WHAT WE DO</a></li>
+                    <li class="mx-2"><a class="text-decoration-none text-dark p-1 navLink" href="contact-us.html">CONTACT US</a></li>
+                </ul>
+                <div id="donate" class="col-2 d-flex justify-content-end align-items-center">
+                    <a class="text-decoration-none m-0 bg-danger text-white px-md-4 px-2 py-md-2 py-1 rounded-pill h6" href="donate.html">Donate</a>
+                </div>
+                <div class="col-1 text-end d-lg-none d-block">
+                    <button onclick="sideBar()" class="btn p-0 m-0 text-dark"><i class="fas fa-bars fa-2x"></i></button>
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- ============== Home part ============== -->
+        <section id="home" class="position-relative">
+            <ul id="sideBar" class="text-center position-fixed top-0 right-0 list-unstyled flex-column justify-content-center align-items-center bg-danger">
+                <li class="my-3"><a class="text-decoration-none text-white navLink" href="index.html">HOME</a></li>
+                <li class="my-3"><a class="text-decoration-none text-white navLink" href="projects.html">WHAT WE DO</a></li>
+                <li class="my-3"><a class="text-decoration-none text-white navLink" href="contact-us.html">CONTACT US</a></li>
+            </ul>
+            <div class="d-flex h-100vh flex-column justify-content-center align-items-center">
+                    <h1 style="z-index: 1;" class="text-white text-center">ALL DIFFERENT ALL EQUAL</h1>
+                    <p style="z-index: 1;" class="text-white text-center">Promoting equality and diversity, dignity and respect through inclusion.</p>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <a class="text-white m-2" href="#"><i class="fab fa-facebook homeIcon rounded-circle p-2 glass "></i></a>
+                        <a class="text-white m-2" href="#"><i class="fas fa-envelope homeIcon rounded-circle p-2 glass "></i></i></a>
+                        <a class="text-white m-2" href="#"><i class="fab fa-twitter homeIcon rounded-circle p-2 glass"></i></a>
+                    </div>
+            </div>
+            <div class="overlay position-absolute"></div>
+            <div id="particles-js" class="position-absolute left-0 top-0 w-100 h-100"></div>   
+        </section>
+        <!-- ============== What to do part ============== -->
+        <section id="whtd">
+            <div class="container-fluid">
+                <div class="row justify-content-around align-items-center">
+                    <div class="py-2 col-md-3 col-sm-6 col-12 d-sm-block d-flex justify-content-around align-items-center">
+                        <img src="https://www.equalityaction.org.uk/images/aboutgraphicslow/respect-cloud-dark.png" alt="">
+                    </div>
+                    <div class="py-2 col-md-3 col-sm-6 col-12 d-sm-block d-flex justify-content-around align-items-center">
+                        <img src="https://www.equalityaction.org.uk/images/aboutgraphicslow/respect-cloud-dark.png" alt="">
+                    </div>
+                    <div class="py-2 col-md-3 col-sm-6 col-12 d-sm-block d-flex justify-content-around align-items-center">
+                        <img src="https://www.equalityaction.org.uk/images/aboutgraphicslow/respect-cloud-dark.png" alt="">
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center align-items-center my-5">
+                    <a class="btn btn-danger rounded-pill py-2 px-4" href="#">WHAT WE DO</a>
+                </div>
+            </div>
+        </section>
+         <!-- ============== Report and Support part ============== -->
+         <section id="rs" class="position-relative py-5">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-6 col-12 z-index-1 text-white">
+                        <h2 class="pb-2">Report Hate Crime.</h2>
+                        <p>We are a reporting centre. We can support you through the reporting process to any of the authorities below:</p>
+                        <a class="btn btn-primary rounded-pill m-2" href="#">LEICESTERSHIRE POLICE</a>
+                        <a class="btn btn-primary rounded-pill m-2" href="#">LEICESTERSHIRE COUNTY COUNCIL</a>
+                        <a class="btn btn-primary rounded-pill m-2" href="#">CHARNWOOD BOROUGH COUNCIL</a>
+                        <p>You can also contact them directly.</p>
+                     </div>
+                     <div class="col-md-6 col-12 z-index-1 text-white">
+                        <h2 class="pb-2">Support Equality Action</h2>
+                        <p>Help us today by donating online. Every donation we receive goes towards promoting equality and diversity throughout Loughbrough.</p>
+                        <p>I would like to donate:</p>
+                        <button onclick="activeBtn1()" class="currencyBtn1 btn border border-2 border-white donateBtn text-white">£5</button>
+                        <button onclick="activeBtn2()" class="currencyBtn2 btn border border-2 border-white donateBtn text-white">£19</button>
+                        <span>OR</span>
+                        <input id="currencyInput" class="text-white bg-transparent border border-2 border-white p-1" type="number">
+                        <a id="dntBtn" class="btn text-danger border border-2 border-white rounded-pill bg-white" href="#">DONATE</a>
+                     </div>
+                 </div>
+             </div>
+             <div style="background: rgb(251 37 84 / 79%);" class="overlay position-absolute"></div>
+         </section>
+         <!-- ============== News and Events part ============== -->
+         <section id="news">
+            <div class="container">
+                <h2>Latest News & Events</h2>
+                <p>Keep up to date with our latest news and events.</p>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card p-2 m-2">
+                            <img src="https://www.equalityaction.org.uk/img/cache/blogcardlow/store/blog/cover/cover-placeholder.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Equality Action’s Statement on LGBT+ Free Zones in...</h5>
+                                <p class="card-text">We deplore the action in Hungary and Poland where local authorities are declaring.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="readMoreBtn btn btn-danger rounded-pill">READ MORE</a>
+                                <p class="m-0"><i class="far fa-clock mx-1"></i>27th Sep 2021</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card p-2 m-2">
+                            <img src="https://www.equalityaction.org.uk/img/cache/blogcardlow/store/blog/cover/cover-placeholder.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Equality Action’s Statement on LGBT+ Free Zones in...</h5>
+                                <p class="card-text">We deplore the action in Hungary and Poland where local authorities are declaring.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="readMoreBtn btn btn-danger rounded-pill">READ MORE</a>
+                                <p class="m-0"><i class="far fa-clock mx-1"></i>27th Sep 2021</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="card p-2 m-2">
+                            <img src="https://www.equalityaction.org.uk/img/cache/blogcardlow/store/blog/cover/cover-placeholder.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Equality Action’s Statement on LGBT+ Free Zones in...</h5>
+                                <p class="card-text">We deplore the action in Hungary and Poland where local authorities are declaring.</p>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="readMoreBtn btn btn-danger rounded-pill">READ MORE</a>
+                                <p class="m-0"><i class="far fa-clock mx-1"></i>27th Sep 2021</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- =========== Join our mailing list part =========== -->
+        <section id="join" class="bg-primary py-4">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-lg-9 col-12 text-white">
+                        <h2>Join our mailing list</h2>
+                        <p>Keep up to date with what's happening here at Equality Action by joining our mailing list; where you will get regular updates about the work and projects as well any events and activities taking place.</p>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <div class="float-end">
+                            <a class="bg-white text-primary border border-2 border-white h6 text-decoration-none rounded-pill py-2 px-3" href="#">Join our mailing list</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-12">
+                    <h2>Contact Us</h2>
+                    <div class="footerLogos">
+                        <a class="text-decoration-none text-white m-3" href="#"><i class="fab fa-facebook fa-3x"></i></a>
+                        <a class="text-decoration-none text-white m-3" href="#"><i class="far fa-envelope fa-3x"></i></a>
+                        <a class="text-decoration-none text-white m-3" href="#"><i class="fab fa-twitter fa-3x"></i></a>
+                    </div>
+                    <ul class="list-unstyled my-4">
+                        <li>Email: <a class="text-white text-decoration-none" href="#">example@gmail.com</a></li>
+                        <li>Phone: <a class="text-white text-decoration-none" href="#">+88016******</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <h2>Quick Links</h2>
+                    <div class="row justify-content-center mt-3 align-items-center">
+                        <ul class="list-unstyled d-flex flex-column col-6">
+                            <li><a class="text-decoration-none text white" href="home.html">Home</a></li>
+                            <li><a class="text-decoration-none text white" href="about.html">About Us</a></li>
+                            <li><a class="text-decoration-none text white" href="projects.html">Projects</a></li>
+                            <li><a class="text-decoration-none text white" href="publications.html">Publications</a></li>
+                        </ul>
+                        <ul class="list-unstyled d-flex flex-column col-6">
+                            <li><a class="text-decoration-none text white" href="support.html">Support Us</a></li>
+                            <li><a class="text-decoration-none text white" href="#">News & Events</a></li>
+                            <li><a class="text-decoration-none text white" href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a class="text-decoration-none text white" href="#"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>Copyright © 2021 Company Name. All Rights Reserved | Company No:*** | Reg Charity No:******</p>
+            <a class="text-decoration-none text-white" href="https://www.facebook.com/localhost.shahed" target="_blank">Designed by Shahedul Islam</a>
+        </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
